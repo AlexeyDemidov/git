@@ -14,3 +14,5 @@
 	show-graph = log --graph --abbrev-commit --pretty=oneline
 [core]
 	excludesfile = ~/.gitignore
+[push]
+	default = simple
