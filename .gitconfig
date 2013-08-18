@@ -1,0 +1,16 @@
+[user]
+	name = Alex L. Demidov
+	email = alexeydemidov@gmail.com
+[color]
+	ui = auto
+[alias]
+    up = pull origin
+    st = status
+    di = diff
+    co = checkout
+    ci = commit -a
+    br = branch
+    sta = stash
+	show-graph = log --graph --abbrev-commit --pretty=oneline
+[core]
+	excludesfile = ~/.gitignore
