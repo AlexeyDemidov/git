@@ -12,6 +12,7 @@
     br = branch
     sta = stash
 	show-graph = log --graph --abbrev-commit --pretty=oneline
+	ready = rebase -i @{u}
 [core]
 	excludesfile = ~/.gitignore
 [push]
